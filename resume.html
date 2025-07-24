@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume | Santhosh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #003366;
+        }
+
+        .download-btn {
+            background-color: #003366;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 30px;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #0055aa;
+        }
+
+        iframe {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Santhosh Portfolio</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="art.html">Art</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h2>📄 Download My Resume</h2>
+    <a href="static/resume/Santhosh_Kumar_Ganesan.pdf" class="download-btn" download>⬇️ Download Resume (PDF)</a>
+
+    <br><br>
+
+    <iframe src="static/resume/Santhosh_Kumar_Ganesan.pdf" width="80%" height="600px"></iframe>
+</main>
+
+<footer>
+    &copy; 2025 Santhosh Kumar. All rights reserved.
+</footer>
+
+</body>
+</html>
