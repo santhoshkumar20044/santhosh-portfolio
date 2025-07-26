@@ -1,109 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Santhosh | Japanese Pencil Art Gallery</title>
-    <link rel="stylesheet" href="static/style.css">
-    <style>
-        body {
-            font-family: 'Noto Sans JP', sans-serif;
-            background-color: #f5f5f5;
-            color: #222;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: url('static/images/japan_wave_bg.jpg') no-repeat center;
-            background-size: cover;
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
-        header h1 {
-            font-size: 2.8rem;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-        .gallery {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .gallery h2 {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 30px;
-        }
-        .art-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .art-item {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            max-width: 300px;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-        .art-item:hover {
-            transform: translateY(-5px);
-        }
-        .art-item img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-        .art-item p {
-            margin-top: 12px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #222;
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Santhosh | Pencil Art Gallery</title>
+  <link rel="stylesheet" href="static/style.css">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .gallery {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      color: #222;
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .art-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .art-item {
+      background-color: #ffffff;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .art-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .art-item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .art-item p {
+      margin-top: 12px;
+      font-size: 15px;
+      color: #444;
+    }
+
+    footer {
+      margin-top: 40px;
+      background-color: #1f1f1f;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>🖌️ Santhosh's Pencil Sketch Gallery</h1>
-        <p>日本の美学 ✨ Inspired by Japanese folklore & culture in pencil art</p>
-    </header>
 
-    <section class="gallery">
-        <h2>🎨 Featured Drawings</h2>
-        <div class="art-grid">
-            <div class="art-item">
-                <img src="static/images/tanuki_drawing.jpg" alt="Tanuki Drawing">
-                <p>🦝 <strong>Tanuki</strong> – Mythical Japanese animal. Sketched in realism using HB pencils.</p>
-            </div>
+  <header>
+    <h1>🖼️ My Pencil Drawing Gallery</h1>
+    <p>Japan-inspired traditional sketches drawn with passion ✏️🎌</p>
+  </header>
 
-            <div class="art-item">
-                <img src="static/images/my_sketch1.jpg" alt="Sketch 1">
-                <p>✍️ Expressive pencil art — realism and shading inspired by Japanese emotion-based art.</p>
-            </div>
+  <section class="gallery">
+    <h2>🎨 Featured Drawings</h2>
+    <div class="art-grid">
 
-            <div class="art-item">
-                <img src="static/images/my_sketch2.jpg" alt="Sketch 2">
-                <p>🖤 Detail-rich drawing capturing fine emotion with clean strokes and Japanese calmness.</p>
-            </div>
+      <div class="art-item">
+        <img src="static/images/tanuki_drawing.jpg" alt="Tanuki Drawing">
+        <p>🦝 <strong>Tanuki</strong> – A creature from Japanese folklore. Sketched with HB/2B pencils.</p>
+      </div>
 
-            <div class="art-item">
-                <img src="static/images/animal_face.jpg" alt="Animal Face">
-                <p>🐯 Fierce and elegant — showcasing raw emotion in pencil form, with brush-like strokes.</p>
-            </div>
-        </div>
-    </section>
+      <div class="art-item">
+        <img src="static/images/couple_face.jpg" alt="Couple Face Sketch">
+        <p>👫 <strong>Couple Face</strong> – Emotion-focused realism with soft shading techniques.</p>
+      </div>
 
-    <footer>
-        <p>🔁 <a href="index.html" style="color:#fff; text-decoration:underline;">Back to Home</a> | 🗾 Made with ❤️ & pencils</p>
-    </footer>
+      <div class="art-item">
+        <img src="static/images/animal_face.jpg" alt="Animal Face">
+        <p>🐯 <strong>Animal Face</strong> – Wild expression captured with sharp pencil strokes.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    🔁 <a href="index.html">Back to Home</a> | 📧 santhoshwebworker@gmail.com
+  </footer>
+
 </body>
 </html>
+
 
